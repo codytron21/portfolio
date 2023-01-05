@@ -4,12 +4,11 @@ import PortfolioImg from "../../assets/sample.jpeg";
 import { data } from "./portfolioData";
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section id="portfolio" className="portfolio">
       <h5>My Recent Work</h5>
       <h2> Portfolio</h2>
       <div className="container portfolio__container">
         {data.map(({ id, image, github, demo }) => {
-          console.log(image);
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
