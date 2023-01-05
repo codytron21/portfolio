@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
+import React from "react";
 function App() {
   return (
     <>
