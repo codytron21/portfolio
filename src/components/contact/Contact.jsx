@@ -8,7 +8,7 @@ const Contact = () => {
   const form = useRef();
   const sendMail = (e) => {
     e.preventDefault();
-    console.log(process.env.REACT_APP_PUBLIC_KEY);
+//     console.log(process.env.REACT_APP_PUBLIC_KEY);
     emailjs.sendForm(
       process.env.REACT_APP_YOUR_SERVICE_ID,
       process.env.REACT_APP_YOUR_TEMPLATE_ID,
